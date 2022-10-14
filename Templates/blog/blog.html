@@ -1,0 +1,124 @@
+
+{% extends 'pages/base.html' %}
+
+{%block title%}Blog{% endblock %}
+
+{%block content%}
+<div class="main">
+<div class="mb-4"><p><h1 class="p-2 mb-2 cool">Where science is relevant and fun for everyone!</h1></p></div>
+
+
+<h3 style="color:#659395;" class="m-4">TRENDING</h3>
+<hr style="border: 1px dashed black;border-width:0.02px;border-color: #659395; margin-bottom:2.5%;" >
+
+<div class="card-group " style="border: solid; border-width:0.02px;border-color: rgba(0,0,0,.125);;">
+    <div class="card m-4  "style="border: solid; border-width:0.02px;border-color: rgba(0,0,0,.125); ;">
+      <img class="card-img-top" src="https://www.scienceabc.com/wp-content/uploads/2020/04/Newtons-Cradle-Physics-ConceptNimomoses.jpg" alt="Card image cap">
+      <div class="card-body" style="background-color: #d9eefc;">
+        <h5 class="card-title"><a href="/blog/1">Mechanics (Physics): The Study of Motion.</a></h5>
+        <p class="card-text"></p>
+        <p class="card-text"><small class="text-muted">{{post1.updatedDate}}</small></p>
+      </div>
+    </div>
+    <div class="card m-4"style="border: solid; border-width:0.02px;border-color: rgba(0,0,0,.125);;">
+      <img class="card-img-top" src="https://cdn.mos.cms.futurecdn.net/o5t6fEf28fcpPHDviY9KxD.jpg" alt="Card image cap">
+      <div class="card-body" style="background-color: #d9eefc;">
+        <h5 class="card-title"><a href="/blog/2">Electricity and Magnetism</a></h5>
+        <p class="card-text"></p>
+           </div>
+    </div>
+    <div class="card m-4" style="border: solid; border-width:0.02px;border-color: rgba(0,0,0,.125);;">
+      <img class="card-img-top" src="https://img-aws.ehowcdn.com/877x500p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/9b0c6b87c1124087a9202990e0a59171?type=webp" alt="Card image cap">
+      <div class="card-body" style="background-color: #d9eefc;">
+        <h5 class="card-title"><a href="/blog/3">The Characteristics of The Eight Planets</a></h5>
+        <p class="card-text"></p>
+           </div>
+    </div>
+  </div>
+  <h3 style="color:#659395;" class="m-4">TOPICS</h3>
+  <hr style="border: 1px dashed black;border-width:0.02px;border-color: #659395; margin-bottom:2.5%;" >
+  <h1 class="cool" style="font-size: 50px; margin-bottom: 5%;">Explore topics like Math, Physics, Chemistry, & Biology.</h1>
+  <h3 style="color:#659395;" class="m-4">MATH</h3>
+  <hr style="border: 1px dashed black;border-width:0.02px;border-color: #659395; margin-bottom:2.5%;" >
+<div class="card-group m-4"style="border: solid; border-width:0.02px;border-color: rgba(0,0,0,.125);;">
+    <div class="card m-4"style="border:solid;border-width:0.02px;border-color: rgba(0,0,0,.125); ">
+      <img class="card-img-top" src="https://img-aws.ehowcdn.com/877x500p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/db2a457fd37047c09b677fc269518a73?type=webp" alt="Card image cap">
+      <div class="card-body" style="background-color: #d9eefc;">
+        <h5 class="card-title"><a href="/blog/4">How to Find an Equation given a Table of Numbers</a></h5>
+        <p class="card-text"></p>
+           </div>
+    </div>
+    <div class="card m-4"style="border:solid;border-width:0.02px;border-color: rgba(0,0,0,.125); ">
+      <img class="card-img-top" src="https://img-aws.ehowcdn.com/877x500p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/e1f4d9f7cc284ebf8e8cc3c74953ab58.jpg?type=webp" alt="Card image cap">
+      <div class="card-body" style="background-color: #d9eefc;">
+        <h5 class="card-title"><a href="/blog/5">What is The Law of Cosines Formula ? </a></h5>
+        <p class="card-text"></p>
+           </div>
+    </div>
+    <div class="card m-4" style="border:solid;border-width:0.02px;border-color: rgba(0,0,0,.125); ;">
+      <img class="card-img-top" src="https://img-aws.ehowcdn.com/877x500p/photos.demandstudios.com/getty/article/41/45/97468472.jpg?type=webp" alt="Card image cap">
+      <div class="card-body" style="background-color: #d9eefc;">
+        <h5 class="card-title"><a href="/blog/6">Difference Between Proportional & Linear Relationships</a></h5>
+        <p class="card-text"></p>
+           </div>
+    </div>
+  </div>
+  <h3 style="color:#659395;" class="m-4">BIOLOGY</h3>
+  <hr style="border: 1px dashed black;border-width:0.02px;border-color: #659395; margin-bottom:2.5%;" >
+<div class="card-group m-4"style="border: solid; border-width:0.02px;border-color: rgba(0,0,0,.125);;">
+    <div class="card m-4"style="border:solid;border-width:0.02px;border-color: rgba(0,0,0,.125); ">
+      <img class="card-img-top" src="https://cdn.britannica.com/06/200706-138-18E6E7F3/Difference-prokaryotes-eukaryotes-cells-DNA-ribosomes-organelles-cell-structure-biology.jpg?w=800&h=450&c=crop" alt="Card image cap">
+      <div class="card-body" style="background-color: #d9eefc;">
+        <h5 class="card-title"><a href="/blog/8">Eukaryotic Cell: Definition, Structure & Function (with Analogy & Diagram)</a></h5>
+        <p class="card-text"></p>
+           </div>
+    </div>
+    <div class="card m-4"style="border:solid;border-width:0.02px;border-color: rgba(0,0,0,.125); ">
+      <img class="card-img-top" src="https://img-aws.ehowcdn.com/877x500p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/66eca377ff8f413f9e7d14c60027a87a?type=webp" alt="Card image cap">
+      <div class="card-body" style="background-color: #d9eefc;">
+        <h5 class="card-title"><a href="/blog/8">What are the Characteristics of Living Organisms ? </a></h5>
+        <p class="card-text"></p>
+           </div>
+    </div>
+    <div class="card m-4" style="border:solid;border-width:0.02px;border-color: rgba(0,0,0,.125); ;">
+      <img class="card-img-top" src="https://img-aws.ehowcdn.com/877x500p/photos.demandstudios.com/getty/article/154/112/86496885.jpg?type=webp" alt="Card image cap">
+      <div class="card-body" style="background-color: #d9eefc;">
+        <h5 class="card-title"><a href="/blog/9">Body Systems & Their Functions</a></h5>
+        <p class="card-text"></p>
+           </div>
+    </div>
+  </div>
+  <h3 style="color:#659395; margin-top: 5%;"  style="margin-top: 10%;">PHYSICS</h3>
+  <hr style="border: 1px dashed black;border-width:0.02px;border-color: #659395;margin-bottom: 2.5%;" >
+<div class="card-group m-4"style="background-color: #d9eefc;border:solid;border-width:0.02px;border-color: rgba(0,0,0,.125); ">
+    <div class="card m-4" >
+      <img class="card-img-top" src="https://www.scienceabc.com/wp-content/uploads/2020/04/Newtons-Cradle-Physics-ConceptNimomoses.jpg" alt="Card image cap">
+      <div class="card-body" style="background-color: #d9eefc;">
+        <h5 class="card-title"><a href="/blog/1">Mechanics (Physics): The Study of Motion.</a></h5>
+        <p class="card-text"></p>
+           </div>
+    </div>
+    
+    <div class="card" style="width: 18rem;background-color: #d9eefc;">
+      <div class="card-body" style="background-color: #d9eefc;">
+        <img class="rounded float-right img-fluid align-self-right" style="width:45%;"src="https://cdn.mos.cms.futurecdn.net/o5t6fEf28fcpPHDviY9KxD.jpg">
+        <h5 class="card-title"><a href="/blog/2">Electricity and Magnetism</a> </h5>
+        <p class="card-text"></p>
+           </div>
+      <div class="card-body" style="background-color: #d9eefc;">
+        <img class="rounded float-right img-fluid align-self-right" style="width:45%;"src="https://img-aws.ehowcdn.com/877x500p/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/9b0c6b87c1124087a9202990e0a59171?type=webp">
+        <h5 class="card-title"><a href="/blog/3">The Characteristics of the Eight Planets</a> </h5>
+        <p class="card-text"></p>
+           </div>
+      <div class="card-body" style="background-color: #d9eefc;">
+        <img class="rounded float-right img-fluid align-self-right" style="width:45%;"src="https://cff2.earth.com/uploads/2017/09/18122950/Scientists-successfully-transfer-light-waves-into-sound-waves.jpg">
+        <h5 class="card-title"><a href="/blog/7">Sound & Light (Physics): How are They Different?</a> </h5>
+        <p class="card-text"></p>
+           </div>
+      
+    </div>
+    
+  </div>
+
+
+{%endblock%}

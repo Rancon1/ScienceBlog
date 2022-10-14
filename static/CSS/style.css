@@ -1,0 +1,84 @@
+nav{
+    margin: 0px !important; 
+    
+}
+.card-group{
+  margin: 0px !important;
+}
+
+.contain-body{
+    margin: 10%;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+    
+}
+
+ol li::marker{
+  color: rgb(118, 34, 34);
+  /* background-color: blue;
+  border-radius: 100%; */
+  font-size: 3rem;
+}
+
+ul li::marker{
+  font-size:xx-large;
+  color: blue;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+.planets{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cool{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3b6267;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.bod{
+  margin: 0%;
+}
+
+.contain-body1{
+  margin: 20%;
+  background-color: #ecf7ff;
+}
+
+.card-body{
+  background-color: #ecf7ff;
+  
+}
+
+.card{
+  border: 0px #ecf7ff;
+}
+
+.card-group{
+  border-left: solid; border-width:0.02px;border-color: rgba(0,0,0,.125);;
+}
+
+.preview-3d canvas.three-canvas {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100vmin!important;
+  height: 100vmin!important;
+}
